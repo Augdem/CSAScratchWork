@@ -26,7 +26,7 @@ public class CodingAssignment1
    System.out.println("Wow! She is \"" + truncPuppyWeight + "\" pound(s) now!");
    System.out.println("That is \"" + dif + "\" more pound(s) than the first time I weighed her!");
    scan.close();
-   puppyWeightCalc = ("My dog Gigi was last recorded to be \"" + puppyWeight + "\" pound(s)");
+   puppyWeightCalc = ("My dog Gigi was last recorded to be \"" + truncPuppyWeight + "\" pound(s)");
    System.out.println(puppyWeightCalc);
    
    
