@@ -17,7 +17,7 @@ public class CodingAssignment1
    
    
    System.out.println(puppyWeightCalc);
-   System.out.println("Type and enter a number followed by one decimal value to best rerecord her weight");
+   System.out.println("Type and enter a number followed by a decimal value to best rerecord her weight");
     
    Scanner scan = new Scanner(System.in);
    puppyWeight = scan.nextDouble();
