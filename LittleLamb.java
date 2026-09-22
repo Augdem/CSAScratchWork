@@ -3,8 +3,8 @@ public class LittleLamb
    public static void main(String[] args)
    {
    System.out.print("Mary had a ");
-   marysPet("honey-baked ham", ", ");
-   marysPet("honey-baked ham", ", ");
+   marysPet("honey-baked ham");
+   marysPet("honey-baked ham");
    marysPet("honey-baked ham", ".");
    }
    
@@ -13,7 +13,10 @@ public class LittleLamb
    System.out.print(petName + punctuation);
    }
    
-  
+  public static void marysPet(String petName)
+  {
+  System.out.print(petName + ", ");
+  }
 
 
 }
