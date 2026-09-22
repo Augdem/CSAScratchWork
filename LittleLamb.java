@@ -4,6 +4,8 @@ public class LittleLamb
    {
    System.out.print("Mary had a ");
    littleLamb();
+   littleLamb();
+   littleLamb();
    }
    
    public static void littleLamb()
