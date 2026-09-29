@@ -1,6 +1,7 @@
 public class Pen {
 
    public static void main(String[] args) {
+      Pen krokowerPen = new Pen();
       System.out.println(takeOffCap());
       System.out.println(write("Hello, World"));
    }
