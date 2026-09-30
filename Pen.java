@@ -1,5 +1,8 @@
 public class Pen {
 
+   String penColor = "purple";
+   
+
    public Pen() {
    System.out.println("I'm inside the constructor");
    }
