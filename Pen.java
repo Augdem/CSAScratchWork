@@ -1,14 +1,16 @@
 public class Pen {
 
-   String penColor = "purple";
+   String penColor;
    
 
    public Pen() {
+   penColor = "purple";
    System.out.println("I'm inside the constructor");
+   
    }
    
-   public static String write(String wordToWrite) {
-   return wordToWrite;
+   public String write(String wordToWrite) {
+   return "writing in " + penColor + " ink" + wordToWrite;
    }
    
    public static String takeOffCap() {
