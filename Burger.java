@@ -34,10 +34,7 @@ public class  Burger {
    
    }
    
-   public Check (boolean isTasty) {
-   String tasty = "tasty";
-   return tasty;
-   {
+
    
    public int getNumberOfBites() {
    return numberOfBites;
@@ -52,7 +49,7 @@ public class  Burger {
    Burger basicBurger = new Burger();
    System.out.println("The Craig Special:");
    System.out.println(basicBurger.numPatties + " patties");
-   System.out.println(Check(basicBurger.isTasty));
+   System.out.println("Tasty", basicBurger.isTasty);
    Burger bigMan = new Burger(1, true, 3.9, "The Big Man");
    bigMan.bite();
    bigMan.bite();
