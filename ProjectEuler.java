@@ -3,21 +3,21 @@ public class ProjectEuler {
 
 public static int problem1 (int num) {
 int result = 0;
-int threes = 0;
-int fives = 0;
 int increment = 0;
 
-while ((increment * 3) < num) {
-threes += (increment * 3);
-increment ++; }
+while (increment < num)
+{
 
-increment = 0;
+if (increment % 3 == 0 || increment % 5 == 0) {
+result += increment;
+increment++;
+} else {
+increment++;
+}
 
-while ((increment * 5) < num) {
-fives += (increment * 5);
-increment ++; }
 
-result = fives + threes;
+}
+
 return result;
 }
 
