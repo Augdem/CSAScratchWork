@@ -14,6 +14,7 @@ public class FindMinimum {
    
    public static void main(String[] args) {
    System.out.println(findMin(99));
+
    
    }
 
